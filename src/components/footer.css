@@ -1,0 +1,31 @@
+.app-footer {
+    background-color: #187FC0; /* Matching header color */
+    color: white; /* Text color */
+    padding: 20px 0;
+    text-align: center; /* Center content */
+    font-family: 'Arial', sans-serif; /* Clean font */
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .app-footer p {
+    margin: 0;
+    font-size: 0.9rem; /* Smaller text */
+  }
+  
+  .footer-links {
+    margin-top: 10px;
+  }
+  
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1rem;
+    transition: color 0.3s, transform 0.3s; /* Smooth hover effect */
+  }
+  
+  .footer-links a:hover {
+    color: #FFD700; /* Highlighted on hover */
+    transform: scale(1.1); /* Slight scaling effect */
+  }
+  

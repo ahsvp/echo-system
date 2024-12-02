@@ -1,0 +1,38 @@
+.app-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #187FC0; /* Primary color */
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    color: #ffffff; /* White text */
+    font-family: 'Arial', sans-serif; /* Clean font */
+  }
+  
+
+  
+  .app-header .header-name{
+    font-size: 5rem;
+    font-weight: bold;
+    margin-right: 200px;
+  }
+  
+  .app-header span {
+    margin: 0 10px; /* Space between items */
+    cursor: pointer;
+    font-size: 1rem;
+    transition: color 0.3s, transform 0.3s; /* Smooth hover effect */
+  }
+  
+  .app-header span:hover {
+    color: #3D9457; /* Highlight on hover */
+    transform: scale(1.1); /* Slight scaling effect */
+  }
+  
+  .app-header span:last-child {
+    font-weight: bold;
+    color: #FFD700; /* Highlighted color for "status" */
+  }
+  
+
+

@@ -1,0 +1,72 @@
+/* ListItem.css */
+
+/* Overall container for each list item */
+.list-item {
+    position: relative; /* Position it relatively to position other elements absolutely */
+    background-color: #f9f9f9; /* Light gray background for the list item */
+    padding: 16px; /* Space around the content */
+    margin: 10px 0; /* Space between list items */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    transition: box-shadow 0.3s ease; /* Transition effect when hovering */
+  }
+  
+  /* Hover effect */
+  .list-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+  }
+  
+  /* Title section */
+  .list-title {
+    font-size: 18px; /* Larger font for the title */
+    font-weight: bold; /* Bold title */
+    color: #333; /* Dark color for the title */
+    margin-bottom: 8px; /* Margin to separate title from description */
+  }
+  
+  /* Description section */
+  .list-discription {
+    font-size: 14px; /* Smaller font for description */
+    color: #555; /* Slightly lighter gray color */
+    margin-bottom: 12px; /* Margin to separate description from label */
+  }
+  
+  /* Label section for active status */
+  .list-item.active {
+    background-color: #e8f5e9; /* Light green background for active items */
+    border-color: #66bb6a; /* Green border for active items */
+  }
+  
+  /* Delete label in the top-right corner */
+  .delete {
+    position: absolute; /* Absolute position within the list item */
+    top: 8px; /* 8px from the top */
+    right: 8px; /* 8px from the right */
+    cursor: pointer; /* Pointer cursor to indicate it's clickable */
+    color: red; /* Red color for the delete button */
+    font-size: 14px; /* Font size for the delete button */
+    font-weight: bold; /* Bold text for emphasis */
+  }
+  
+  /* Hover effect for delete button */
+  .delete:hover {
+    color: darkred; /* Darker red when hovered */
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .list-item {
+      padding: 12px; /* Less padding on smaller screens */
+      margin: 8px 0; /* Less margin between items */
+    }
+  
+    .list-title {
+      font-size: 16px; /* Smaller font size for title */
+    }
+  
+    .list-discription {
+      font-size: 12px; /* Smaller font size for description */
+    }
+  }
+  

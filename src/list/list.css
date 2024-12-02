@@ -1,0 +1,40 @@
+/* List.css */
+
+/* Container for the entire list */
+.app-list {
+    padding: 20px; /* Space around the list */
+    background-color: #f1f1f1; /* Light gray background for the list */
+    border-radius: 8px; /* Rounded corners for the list */
+  }
+  
+  /* Style for the Tools component's header section */
+  .list-header {
+    margin-bottom: 16px; /* Space below the header */
+    font-size: 16px; /* Font size for the header */
+    font-weight: bold; /* Bold header text */
+  }
+  
+  /* Select input for filtering */
+  .list-header select {
+    padding: 8px 12px; /* Padding for the select input */
+    font-size: 14px; /* Font size for the select options */
+    border-radius: 4px; /* Rounded corners for the select */
+    border: 1px solid #ccc; /* Light border */
+    outline: none; /* Remove default outline */
+    cursor: pointer; /* Pointer cursor for the dropdown */
+  }
+  
+  /* Style for the Tools component's footer */
+  .list-footer {
+    margin-top: 16px; /* Space above the footer */
+    text-align: center; /* Center align the text */
+    font-size: 14px; /* Font size for the footer */
+    color: #666; /* Lighter gray for footer text */
+  }
+  
+  /* Footer text for total count */
+  .list-footer h1 {
+    font-size: 18px; /* Larger font for the total count */
+    font-weight: normal; /* Normal font weight */
+  }
+  
